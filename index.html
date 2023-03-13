@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mx-auto px-4 py-8 ">
+
+        <div class="container flex  mx-auto px-4 py-8">
+            <div class="flex flex-col items-stretch gap-[10px] md:flex-row">
+                <!-- Box-1 -->
+                <div class="flex-1 bg-red-50 rounded-tl-[90px] rounded-tr-[90px] sm:rounded-tl-[90px] sm:rounded-tr-none">
+                    <div class=" p-4 h-128 ">
+                        <div class="flex items-center justify-center h-full">
+                            <div class="bg-yellow-300 w-32 h-32 py-6 px-6 rounded-full">
+                                <img src="data:image/png;base64,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"
+                                    class="w-20 h-20  object-cover rounded-full" alt="..." />
+                            </div>
+                        </div>
+                        <div class="p-5  text-justify font-medium">
+                            <p class="text-2xl font-medium p-4 text-center">Drugs & Alcohol</p>
+                            <p class="text-sm font-small text-start ">For Many People's with the problem with drug or alcohol
+                                use,it can feel very isolated and lonely.It can fell like no one understands,or even
+                                that you are somehow different or worthless then other people .You are Not .
+                            </p>
+                            <div class="py-7 text-center">
+                                <button class="bg-yellow-500  text-black font-bold py-2 px-4 rounded-[20px]  p-15 ">
+                                    Find Support
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="flex-1 bg-indigo-100 ">
+                    <div class="p-4 h-128 rounded ">
+                        <div class="flex items-center justify-center h-full">
+                            <div class="bg-blue-800 w-32 h-32 py-6 px-6 rounded-full">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAMAAABmmnOVAAAA3lBMVEX////+AAIBAQEAAAD8///6AAD5///e3t73AAAtLS3l5eUSEhLR0dFGRkbo6Oj9//2goKD95+bxAQD9Liz7rKv40tD1JSL8TEj6w8T5RUb68O/76+n43Nv4FhH319X9y8pmZmb6ta7+tLL6ZWP9WFb85Nz2lJH6QTz5fH35d3b9i4n9ICD5a2X6xL71g4b5j4/2t7aUlJSDg4MbGxtABAf8n5tLBAhTUlNUBAa6urr8OTX3cmz7gnt1dXWurq6YZmEzBAqrgX9PWVlhLi2FYGIoAADftLIgAACdhoQ6OjqlXU0mAAALCUlEQVR4nOVci3biOBK1sSScdDqOMRAwGNLh4QAhpJMhCSSd6Z2dnd3+/x9a2YBVeliS89g9e7amZ3picPn61kOlkhTH+Z8X5ATF//2XECBC/6HioIAQ8p+FkT82HF6ur0bnUeJSSaLz0dX6chii3aefLyQcrseLBGPf5QTTK4vxOkfyqc9HzmQ6ilytLEbTifNZxkEOGUxT3/f1GFzs+jhdDT4FAwmbKTY8H0LZNnsf6x0BcsKryDVxwInvR1dhUITw+4WEs0oADmz4z5MPcg7KwsytYAgex6z/IRjiefJWCBkZyTx+LwRClkZ3NH2+7byXhmvlI/Dhr0U6ptJdaEHi6/jtnoFIR+2PPk2Ns3UnjOmgkcUhCoK431nPxomvxuwvyVsxoBss6aRX/O7NMMzGCESCLHp336XjCQrC4TylCV1GgufO26I1Ple8lp82B7oRk6D++lzBH+6+xT/RMJFZ3a4shieEequtTIc/rO4YTfl10mWs5uDsIK8HGPEyle5PvlVDgVBT8oXotuzbJ14h9eJicBuJZPjNSijQWiRz0Swfjr57tb14ZwwEIk3BoNhd26NAaM5jwP5NrImxU2+Pwrvn9cQ3gk38uXWooqlAQ3uoH5UzEBkO70h8m9YCcxkVT21RNAUebhzDnQUTR/JnV5wybOkXRPDJpGO8TQcCLXn/xJc2KIaCHS2gl5ljh2KQ8lyY8wWKxRy1MOcnHRM0TuIx916Jzsl3d5wLGFzcaJlQ6EHQN+PGYtw1gKBjlgjCdSMTCq05MiEzTuGNVh/1IhmDixeTQDsEmpigAyhXpOKOhgsSqys5nPSNeUILglZoz5xCzZBKrlUQMmm3dHY0g6C6u4AL/xqVUas2xg56W8eF0Scy5T0QqbjUICjegscmwvCT9Mu5sGGC5osGeMdtmUHmnO+gsAF/xkmrlEIrEA7pQH0rtbYQvvoNcVCLn39HgzIUNubIULwAr0iUORDGMm5nbOVjIBC/LHfaMUEjtQ20zRTKUAgftwsG1Of8AicDNQpbEKgFtYWKb8zAWx9SGuq3OS5KcqelOai+OYjTmezpIXsaXhQzJtSCDJZFqi0TNADBXE2mAl2BT8HoTfpipCpQWINwYAGNX0RVPRAJEfyQ+gVXlbRbcqlnD8JBUaEMRz1eE1fi33KfCZGKFZFq7RNUvjGvwE3eKwhrAOBUBD/gp7lyhFdgwnFA9t5yisiAfeJLkxwU8pHqC5FaZyX/sREDugVvxPX4YJEfyVkdDSIhUgGPxz9qhTm8+7tTE4h4y0ifch8BjlZy+AZipIIY2dx7ByJyGEcnJhQrpieFjflJ4S240VPeKUXqHuorQLCHsTGg6AFWJ+D6moFI1ZlZzJ3tXe7ciBgyFAYuCKB9CjLSiMVNs+RWMVLbfRqox9QWtZ1D5D6x+3Okr4thOhixr4ZMf1Lad0QDvgDN/OJC4iGn4rueigEzbVSkbjRkqjVzAhRycxi8GNRlY+QgPENrqMviY1hoXzPNN5qCVozU7e85BskcsE2hFBYf/rq4OC4w+Np5Dmrx40jjp4KIDMyFFgNkflSMRCwJLFSVBrhdiNTGQ01pkCNtykI9NqAvDiBAVh5rMciR2nhSmgP0rlRK4oJ6OhDtLw6ZXlXhxwnhc6fb+E3FhR4EV84ePPOSgTB3trL6QkBRGYTD+nKHngls1S2NIIKgv1BZpBKIjvTacDowsejliPMR6p013ieMICYMxMvuChkxhaYW2R5Fg+fiZ95IrcBEzMxxvVOJQHNG34copMcvcDT+ttmc3Xv2IBx27/nuQsDYXQQGc5z+eszkj783OBTbP//Y3Hn25nDYS+yq6gCxNJESAxObQxP7iUOBG/+4eK3ABGKjebK/wpSNTeupd4dqsvYbz0Xjz5MqIFi2cquD+MGeJKBo//VBILApa2cFxN7qXu1JQHGIVAufACDw/hJgwgIEkweuiwJzpxEECMj9FeaYXVOu4kupn4JfPB1SpzE6gGPuHglCNDKliQtYUtZEi2QZ3M4cIER3GAjgpoJjKlH8tGSCVffn+RMRTNumpdw7HoRXYhH7tO2O9tyArp2+sMqSFV/DyN75ZMMEm2wdmkKgznVNa+un0oRLskhW5VQZyveXqhQ1R3IdJebOB4uihjFxub9Upbz7LlMhoXgygUCg538o72Cha4rRuifWtYoYeTAUugEodA/zbxC1hpKfyqOqxqfeyc1H/qkHEYIHFlUUA+YPdXcXVAjief8Sqhz9HGrJvjkuQIBpoHkJtyhe2F/e12PBIlsdCrQqaAPTQDAtS40g0FepLeKdXIhVjh+We1fARg4wIQ7ZtKq8NVDI6RchbXonZ55U5ZT1wan0la0BxBI3tliLrf/a1db7KZ+32fWMHngu2mXrIwTMc0bgK7BdZMTgOMePhXd63q/NoW8lVjklK1Yl7SLYOMM9i/mP83q048Lzzuo/vEObQuCiZA0RjF5cjx3BFqLdRouT+8wUZ/WzYtoj+0VbGSMr2DwGXyCgmVq6RCZIVv3fbb54IIXKFpG9E8Ws3eNPIQg0ABQt7UA49PknQriKYyqW++DkljV7cIv/bAtd024uqAAhVzlS/ymADXYhKbEdTdi/tfOKAwhdleNiMXfC/rqYDnqgARPZ7XtRMaGocpI+nFsSzaKLQ8DeF5uEVQqiJtYXXKSiJvCImagRdkpxYrV1sRSEiAJEKrdPRV5mDeDegnkVEHL3rvYE+1q4yJ0BGD9d/CzPL1AI+qR+S3pkFSZq3l9cfZFZJPMLbnFWtd4cELjZo/1OEPWQXzdbZBZBDtyWoCxnuRVQfGU2iMYctMYU1xDpmIquwGsm6kIScVsXzM1ELRMOaQkrEyHqQEeZlwz0YImMfqu8KLECIXRdsbtowp/T0gDkoBoHMr05snVOfvWO85Jyogm3KatrOC9iYCJf7S/ZfY+fNXpjiNYf6TfiG0FIKxNMdCzz+4toXtWNImYQFAXfBz+8ntbrAzLnUei+bPKJHEVLPheD3bLIKKTLff9aYxELJvIVKwlE13RgC8V8quuW171WIAI68RS8s2ExPPKbQv10UOYXGYhHgzmcfPTmibDaRP6N56JRskMt2639XWpXSOZAHd4e+JsFBGnjOMYvShtm3cT7bDKmBeFccYuY2Ga3bS5kLVhRtY8m58B7PL3wxBUXGKKtSLDFVNRTTsZcOL6C54IzHf/In+x5X09ONmcXRzVP4RMoXrmuoKfCFnYyFbeeJwWN9de7iyO2e9+7v7h7PanfeZzkY0dT2mI6tceQK5CORkTfAmqU+pGnlM2Z94XJd4KyAwWChooHCigZl+LYg/30NnZO68dqcU6BoPg2lU544IpHKzIuhor9utHKYs6eHTKRWMB+YmyHqXTFqQTCxzhtDvITPqrsn50DCvprSoJ4AAnjrnHLuFKIchM3LdS682FPNb6iIFyuUuWGZ3/+FgQ7rR3plfK3otXzeLZeTuKsgs4PPjnxJDuCtXAVJ5+yO5bvODFJ4uvSk4kUHy0cu+fj8Xm68LHvK5+fy/PbTAHI2KoPmFmLn5oLdzMZN2U1mpUk83fSsCejP3srF77/En4EhBxGOMPVj4zSW55DdSy/FcaVlH9MEs3Cjz1FTKOw19yqA1BFgo+3zewQ40diyHEQNJjKSVSJoTttfeZJ+8l0LB23g+K70Wj6IeeGyyX75QbhcDpeFGGLD/+lf5LFeDoM6Yj/cc6ow0KyX3jwcg1+4cHN+nLYIx8Vj3Yo8n/RvgLOf/o8F/g/kn8DErDMgnB3OWgAAAAASUVORK5CYII="
+                                    class="w-20 h-20  object-cover rounded-full" alt="..." />
+                            </div>
+                        </div>
+                        <div class="p-5  text-justify font-medium">
+                            <p class="text-2xl font-medium p-4 text-center">Buisness & Training</p>
+                            <p class="text-sm font-small  text-start">Drug and Alcohol use is a growing concerns for all employers
+                                large or small thier employees.If not managed well,organizations stand to loose a wealth
+                                of experience and an employee stands to loose thier carrrier.
+                            </p>
+                            <div class="py-7 text-center">
+                                <button class="bg-blue-800  text-black font-bold py-2 px-4 rounded-[20px]  p-15 ">
+                                    Buisness Information
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 3 -->
+                <div class="flex-1 bg-indigo-100 rounded-bl-[90px] sm:rounded-bl-none rounded-br-[90px] sm:rounded-br-none  rounded-tr-none sm:rounded-tr-[90px] sm:rounded-tr-none ">
+                    <div class="p-4 h-128  ">
+                        <div class="flex items-center justify-center h-full">
+                            <div class="bg-emerald-500 w-32 h-32 py-6 px-6 rounded-full">
+                                <img src="data:image/png;base64,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"
+                                    class="w-20 h-20  object-cover rounded-full" alt="..." />
+                            </div>
+                        </div>
+                        <div class="p-5  text-justify font-medium ">
+                            <p class="text-2xl font-medium p-4 text-center">Work & Volunteer WithUs</p>
+                            <p class="text-sm font-small text-start ">Drug and Alcohol use is a growing concerns for all employers
+                                large or small thier employees.If not managed well,organizations stand to loose a wealth
+                                of experience and an employee stands to loose thier carrrier.
+                            </p>
+                            <div class="py-7 text-center">
+                                <button
+                                    class="bg-emerald-500 text-center  text-black font-bold py-2 px-4 rounded-[20px]  p-15 ">
+                                    Find Support
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
